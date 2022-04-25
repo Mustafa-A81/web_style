@@ -1,0 +1,217 @@
+.up{
+    background-color: #158217;
+    height: 6rem;
+    border-radius: 20px 20px 20px 20px;
+}
+.wht-icon-li{
+    list-style-type: none;
+    float:left;
+    padding:4%;
+}
+.wht-icon-li a{
+    color: greenyellow;
+}
+.wht-icon-li a:hover{
+    color: #ffffff;
+    font-size: 20px;
+}
+.search{
+    width:250px;
+    height: 35px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+.button{
+    width: 40px;
+    height: 35px;
+    float: left;
+    margin-bottom: 13px;
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+    color: #158217;
+    border-radius: 0px 5px 5px 0px;
+}
+.button:hover{
+    background-color: #158217;
+    color: #ffffff;
+}
+.fa-magnifying-glass:hover{
+    background-color: transparent;
+}
+.navbar-brand{
+  
+	display:flex;
+    justify-content:center;
+    align-items:center;	
+	padding:10px 20px;
+	text-transform:uppercase;
+	font-family:oswald;
+	font-size:14px;
+	background-color: transparent;
+	color:#158217;
+	text-decoration:none;
+	position: relative;
+}
+.navbar-brand:hover{
+    color: #158217;
+}
+.navbar-brand::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 3px;
+  left: 0;
+  background-color: #158217;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.5s ease-in-out ;
+}
+.navbar-brand:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  color: #158217;
+  font-weight: bold;
+}
+.grn-fon{
+    background-color: #158217;
+    border-radius: 20px 20px 20px 20px;
+}
+.display-5{
+    color: #158217;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 8px;
+}
+.display-p{
+    color: #158217;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 12px;
+}
+.nav-item{
+    padding-left: 30px;
+    color: #158217;
+}
+.nav-link{
+    display:flex;
+    align-items:center;	
+	font-family:oswald;
+	font-size:14px;
+	background-color: transparent;
+	color:#158217;
+	text-decoration:none;
+	position: relative; 
+}
+.nav-link:hover{
+    color: #158217;
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 3px;
+  left: 0;
+  background-color: #158217;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.5s ease-in-out ;
+}
+.nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+  color: #158217;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link.active{
+    font-weight: bolder;
+   
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+}
+.slider{
+    height: 50rem;
+}
+.carousel .carousel-inner .carousel-item img{
+    height: 50rem;
+}
+.gr-area{
+    background-color: #158217;
+    border-radius: 20px 20px 0px 0px;
+}
+.s-img{
+    width: 8rem;
+    height: 5rem;
+    margin-top: 20px;
+}
+.img-text{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.image-mak{
+    padding-top: 16px;
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 40px;
+    color: #ffffff;
+}
+.images-one{
+    width: 125px;
+    height: 100px;
+    margin-top: 38px;
+    border: solid 2px #ffffff;
+    border-radius: 30px 0px 0px 0px;
+}
+.images-two{
+    width: 125px;
+    height: 100px;
+    margin-top: 38px;
+    border: solid 2px #ffffff;
+    border-radius: 0px 0px 30px 0px;
+}
+footer{
+    width: 1349px;
+    height: 70px;
+    background-color: darkgreen;
+    border-radius: 0px 0px 20px 20px;
+}
+footer {
+    color: #ffffff;
+}
+.telifhakki{
+    font-size: 16px;
+    padding-top: 28px;
+    padding-left: 600px;
+    float: left;
+}
+.card-img-top:hover
+{
+    z-index:4;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.images-one:hover{  
+z-index:4;
+-webkit-transform: scale(1.5);
+-ms-transform: scale(1.5);  
+-moz-transform: scale(1.5);
+transform: scale(1.5);
+}
+.images-two:hover{  
+    z-index:4;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.rounded:hover{
+    border: solid 2px #ffffff;
+}
+.dropdown-item:hover{
+    background-color: #158217;
+    color: #ffffff;
+}

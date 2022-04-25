@@ -1,0 +1,451 @@
+body{
+    border-left: 10px solid orange;
+    border-right: 10px solid orange;
+    border-radius: 100px 100px 100px 100px;
+    
+}
+.container-fluid{
+    width: 1200px;
+    height: 2030px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ust{
+    width: 1200px;
+    height: 605px;
+    float: left;
+    background-color: #290000;
+}
+.logo-menu{
+    width: 1200px;
+    height: 125px;
+    float: left;
+    border-top: 20px solid orangered;
+    border-radius: 100px 100px 0 0;
+}
+.logo{
+    width: 180px;
+    height: 100px;
+    float: left;
+    margin-left: 115px;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+.logo h2, p{
+    color: #ffffff;
+}
+@keyframes blinker {  
+    50% { opacity: 0; }
+}
+.logo h2{
+    font-size: 35px;
+    animation: blinker 2s linear infinite;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: orange;
+}
+.logo p{
+    font-size: 12px;
+}
+.ust-alt-cizgi-bir{
+    width: 375px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 0 0 10px 10px;
+}
+.menu{
+    width: 580px;
+    height: 125px;
+    float: right;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+.dropbtn-one{
+    background-color: transparent;
+    color: #fff;
+    padding: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+.dropbtn-one:hover{
+    background-color:#c52505;
+    color: #290000;
+    border-radius: 10px 10px 10px 10px;
+}
+.dropbtn{
+    background-color: transparent;
+    color: #fff;
+    padding: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #290000;
+    border-left: 1px solid orange;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color:#c52505;
+    color: #290000;
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color:#c52505;
+    color: #290000;
+    border-radius: 10px 10px 10px 10px;
+}
+.ust-alt-cizgi{
+    width: 700px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 10px 10px 0px 0px;
+}
+.ust_alan{
+    width: 1200px;
+    height: 480px;
+    float: left;
+    margin-right: 120px; 
+}
+.ust_alan-bir{
+    width: 315px;
+    height: 480px;
+    float: left;
+    margin-left: 115px;
+    margin-top: 100px;
+}
+.ust_alan-bir h2{
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.ust_alan-bir p{
+    font-size: 14px;
+    color: #979797;
+    margin-bottom: 20px;
+}
+.read{
+    width: 143px;
+    height: 35px;
+    background-color:  #76c38f;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 35px;
+}
+.animation-examples{
+    width: 145px;
+    height: 35px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: cambria;
+  }
+.animation-examples.one{
+    color: #69D2E7;
+    outline: 2px dashed orange;
+    box-shadow: 0 0 0 1px #290000;
+    animation: 1s animateBorderOne ease infinite;
+}
+@keyframes animateBorderOne{
+    to{
+      outline-color: #290000;
+      box-shadow: 0 0 0 2px orangered;
+    }
+}
+.animation-examples a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.animation-examples a:hover{
+    color: orangered;
+}
+.carousel{
+    width: 400px;
+    height: 300px;
+    float: left;
+    border: 10px solid orangered;
+    border-radius: 100%;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.carousel img{
+    width: 380px;
+    height: 280px;
+    border-radius: 100%;
+}
+.center{
+    width: 1200px;
+    height: 1000px;
+    float: left;
+    background-color: #660000;
+    border-bottom: 10px solid #000;
+    border-radius: 0 0 200px 200px;
+}
+.center-bir{
+    width: 960px;
+    height: 405px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.card{
+    width: 225px;
+    height: 305px;
+    float: left;
+    margin-right: 15px;
+}
+.card-img-top{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 53px;
+}
+.card-body h5{
+    font-size: 24px;
+    text-align: center;
+    color: #290000;
+    padding-bottom: 10px;
+}
+.card-body p{
+    font-size: 12px;
+    text-align: justify;
+    color: #979797;
+}
+.card-img-top:hover{
+    border: solid 1px orangered;
+}
+.card-bir{
+    width: 225px;
+    height: 305px;
+    float: left;
+    margin-right: 15px;
+    background-color: orangered;
+}
+.card-bir p{
+    color: #000;
+}
+.card-bir:hover{
+    border: solid 1px #000;
+}
+.center-iki{
+    width: 1200px;
+    height: 120px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.ara-cizgi-bir{
+    width: 350px;
+    float: left;
+    color: yellow;
+}
+.ara-cizgi-bir hr{
+    height: 3px;
+}
+.ara-cizgi-yazi{
+    width: 260px;
+    height: 50px;
+    float: left;
+}
+.ara-cizgi-yazi h3{
+    font-size: 23px;
+    width:260px;
+    height: 50px;
+    background-color: gold;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.ara-cizgi-iki{
+    width: 350px;
+    float: left;
+    color: yellow;
+}
+.ara-cizgi-iki hr{
+    height: 3px;
+}
+.center-uc{
+    width: 1200px;
+    height: 520px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.card-x{
+    width: 300px; 
+    height: 240px;
+    float: left;
+    background-color: #000;
+    border: 5px solid orange;
+    margin-right: 30px;
+}
+.card-img-top-x{
+    width: 290px;
+    height: 190px;
+    float: left;
+    margin-bottom: 10px;
+}
+.card-x h3{
+    width: 300px;
+    height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+.alt-cizgi{
+
+    width: 1200px;
+    float: left;
+  
+    border-radius: 200px 200px 0 0;
+}
+.alt{
+    width: 1200px;
+    height: 450px;
+    float: left;
+    background-color: #c52505;
+    border-radius: 100px 100px 0 0;
+    border-top: 10px solid #000;
+}
+.alt-bir{
+    width: 1200px;
+    height: 385px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.alt-bir-bir{
+    width: 210px;
+    height: 385px;
+    float: left;
+    margin-right: 30px;
+    text-align: justify;
+}
+.alt-bir-bir h4{
+    color: #290000;
+    font-size: 18px;
+}
+.alt-bir-bir h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #660000;
+}
+.alt-bir-bir p{
+    font-size: 14px;
+}
+.alt-bir-iki{
+    width: 210px;
+    height: 385px;
+    float: left;
+    margin-right: 30px;
+}
+.alt-bir-iki h4{
+    color: #290000;
+    font-size: 18px;
+}
+.alt-bir-iki a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #290000;
+    font-weight: bold;
+}
+.alt-bir-iki a:hover{
+    text-decoration: underline;
+}
+.alt-bir-uc{
+    width: 210px;
+    height: 385px;
+    float: left;
+    margin-right: 30px;
+}
+.alt-bir-uc h4{
+    color: #290000;
+    font-size: 18px;
+}
+.alt-bir-uc a{
+    color:darkorange;
+    font-size: 18px;
+}
+.alt-bir-uc .span{
+    font-size: 14px;
+    color: gold;
+}
+.alt-bir-dort{
+    width: 210px;
+    height: 385px;
+    float: left;
+}
+.alt-bir-dort h4{
+    color: #290000;
+    font-size: 18px;
+}
+.text{
+    width: 225px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius:10px;
+    border: none;
+}
+.email{
+    width: 225px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.message{
+    width: 225px;
+    height: 82px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.submit{
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+}
+.submit:hover{
+    border: 1px solid green;
+    background-color: #fff;
+    color: green;
+    font-weight: bold;
+}
+.lisans{
+    width: 1200px;
+    height: 50px;
+    float: left;
+    background-color: #290000;
+}
+.lisans .lisans-yazi{
+    text-align: center;
+    padding-top: 10px;
+}

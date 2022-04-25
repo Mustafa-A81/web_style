@@ -1,0 +1,404 @@
+.container-fluid{
+    width: 1000px;
+    height: 1900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reklamver{
+    position:fixed; top:0px; left:0px; right:0px; 
+}
+.ust{
+    width: 960px;
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #660000;
+    float: left;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+}
+.logoo{
+    width: 60px;
+    height: 100px;
+    float: left;
+}
+.logoo img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 10px 0px 10px 0px;
+}
+.ust .logo h3{
+    color: #fcfcfc;
+    font-size: 27px;
+}
+.ust .logo p{
+    color: #fcfcfc;
+}
+.src-btn{
+    width: 500px;
+    height: 100px;
+    float: right;
+    padding-top: 20px;
+}
+.src-btn .srch{
+    width: 180px;
+    height: 25px;
+    float: left;
+    color: #660000;
+    border: solid 1px #660000;
+    font-size: 0.75rem;
+    margin-left: 230px;
+    border-radius: 7px 0px 0px 7px;
+    font-weight: bold;
+}
+.src-btn .bttn{
+    width: 80px;
+    height: 25px;
+    float: left;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color:#460000;
+    border: solid 1px #660000;
+    margin-left: 5px;
+    border-radius: 0px 7px 7px 0px;
+}
+.src-btn .bttn:hover{
+    background-color: #460000;
+    border: solid 1px yellow;
+    color: yellow;
+}
+.menu{
+    width: 960px;
+    height: 70px;
+    float: left;
+    border-bottom: solid 2px #e7e7e7;
+    border-radius: 0px 0px 20px 20px;
+}
+.navbar{
+    width: 960px;
+    height: 50px;
+    float: left;
+}
+.menu .navbar-brand{
+    color: #333333;
+}
+.menu .navbar-brand:hover{
+    color: #660000;
+    font-weight: bold;
+}
+.nav-link{
+    font-weight: bold;
+}
+
+.merkez{
+    width: 960px;
+    height: 1350px;
+    float: left;
+    margin-top: 30px;
+    border-bottom: solid 1px #660000;
+}
+.merkez .mrkz{
+    width: 960px;
+    height: 440px;
+    float: left;
+    border-bottom: solid 2px #e7e7e7;
+    margin-bottom: 20px;
+}
+.merkez .mrkz .mrkz-bir{
+    width: 630px;
+    height: 400px;
+    float: left;
+    background-color: #e1e1e1;
+    
+}
+.merkez .mrkz-iki{
+    width: 300px;
+    height: 410px;
+    float: left;
+}
+.merkez .mrkz-iki img{
+    width: 140px;
+    height: 120px;
+    float: left;
+    padding-left: 30px;
+}
+.merkez .mrkz-iki .small-image img{
+    padding-bottom: 15px;
+}
+.merkez .mrkz-iki .image-text h4{
+    width: 160px;
+    height: 105px;
+    color: #ffffff;
+    background-color: #660000;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 48px;
+}
+.merkez .center{
+    width: 960px;
+    height: 820px;
+    float: left;
+    margin-top: 30px;
+}
+.merkez .center .cntr{
+    width: 640px;
+    height: 320px;
+    float: left;
+}
+.merkez .center .cntr .cntr-bir{
+    float: left;
+    width: 200px;
+    height: 320px;
+    border: solid 1px #d8d8d8;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.merkez .center .cntr .cntr-bir img{
+    width: 180px;
+    height: 100px;
+}
+.merkez .center .cntr .cntr-bir p{
+    color: #979797;
+    font-size: 12px;
+}
+.merkez .center .cntr .cntr-bir ul li{
+    list-style-type: none;
+    float: left;
+}
+.merkez .center .cntr .cntr-bir ul li a{
+    text-decoration: none;
+    color: #ff4646;
+    text-align: start;
+    font-size: 11px;
+}
+.merkez .center .cntr .cntr-iki{
+    width: 630px;
+    height: 475px;
+    float: left;
+    margin-top: 30px;
+    border-top: solid 1px #979797;
+    padding-top: 35px;
+}
+.merkez .center .cntr .cntr-iki .bolum-bir{
+    width: 300px;
+    height: 465px;
+    float: left;
+}
+.merkez .center .cntr .cntr-iki .bolum-bir h4{
+    border-bottom: solid 1px #979797;
+    color: #333333;
+    padding-bottom: 10px;
+}
+.merkez .center .cntr .cntr-iki .bolum-bir h5{
+    color: #ff4646;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.merkez .center .cntr .cntr-iki .bolum-bir h6{
+    color: #979797;
+    font-size: 11px;
+}
+.merkez .center .cntr .cntr-iki .bolum-bir p{
+    color: #979797;
+    font-size: 11px;
+    border-bottom: solid 1px #979797;
+    padding-bottom: 15px;
+}
+.merkez .center .cntr .cntr-iki .bolum-iki{
+    width: 300px;
+    height: 470px;
+    float: left;
+    padding-left: 30px;
+}
+.merkez .center .cntr .cntr-iki .bolum-iki h4{
+    border-bottom: solid 1px #979797;
+    color: #333333;
+    padding-bottom: 10px;
+}
+.merkez .center .cntr .cntr-iki .bolum-iki video{
+    width: 300px;
+    height: 235px;
+}
+.merkez .center .cntr .cntr-iki .bolum-iki p{
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    color: #979797;
+}
+.merkez .center .cntr .cntr-iki .bolum-iki a{
+    color: #ff4646;
+}
+.merkez .center .area{
+    width: 300px;
+    height: 820px;
+    float: left;
+    margin-left: 10px;
+}
+.merkez .center .area .kresim{
+    width: 300px;
+    height: 355px;
+    float: left;
+    padding-top: 15px;
+}
+.merkez .center .area .kresim .k-resim{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 1px solid #979797;
+    padding: 5px;
+    margin-right: 20px;
+}
+.merkez .center .area .kresim .kucukresim-bir{
+    width: 300px;
+    height: 105px;
+    border-bottom: solid 1px #979797;
+    padding-top: 15px;
+}
+.merkez .center .area .kresim .kucukresim-bir h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+.merkez .center .area .kresim .kucukresim-bir h6{
+    font-size: 14px;
+}
+.merkez .center .area .kresim .kucukresim-bir a{
+    font-size: 14px;
+    color: #ff4646;
+    text-decoration: none;
+}
+.merkez .area .kucukyazi{
+    width: 300px;
+    height:265px;
+}
+.merkez .center .area .kucukyazi h4{
+    color: #333333;
+    font-size: 16px;
+    padding-top: 30px;
+    border-bottom: solid 1px #979797;
+    padding-bottom: 10px;
+}
+.merkez .center .area .kucukyazi a{
+    color:#ff4646;
+    font-size: 17px;
+}
+.merkez .center .area .reklam{
+    width: 300px;
+    height: 325px;
+    float: left;
+}
+.merkez .center .area .reklam h3{
+    color: #333333;
+    font-size: 1.2rem;
+    border-bottom: solid 1px #979797;
+    padding-bottom: 10px;
+}
+.nikerklm{
+    width: 300px;
+    height: 250px
+}
+.nike{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 20px;
+    background-color: black;
+}
+.red{
+    width: 960px;
+    height: 350px;
+    float: left;
+    background-color: #660000;
+    margin-top: 1px;
+    color: #ffffff;
+}
+.red .red-one{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-right: 25px;
+}
+.red .red-one h4{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.red .red-one h5{
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+.red .red-one h6{
+    font-size: 0.8rem;
+}
+.red .red-two{
+    width: 630px;
+    height: 300px;
+    float: left;
+    
+}
+.red .red-two .kutu{
+    width: 300px;
+    height: 80px;
+    background-color: #460000;
+    margin-top: 30px;
+    margin-left: 8px;
+    float: left;
+
+}
+.red .red-two .kutu:hover{
+    background-color: #660000;
+    border: solid 3px #460000;
+    border-radius: 5px 20px 5px 20px;
+    font-style: italic;
+}
+.red .red-two .kutu a{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+.red .red-two .kutu a:hover{
+    color: #fff;
+}
+.red .red-two .kutu h2{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 30px;
+}
+.alt{
+    width: 960px;
+    height: 40px;
+    float: left;
+    padding-left: 20px;
+    border-top: solid 1px #ffffff;
+}
+.alt_yazi{
+    width: 300px;
+    height: 40px;
+    float: left;
+    padding-top: 15px;
+}
+.alt h3{
+    font-size: 1rem;
+}
+.alt .sosyalmedya{
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+}
+.alt .sosyalmedya a{
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: grey;
+}
+.alt .sosyalmedya a:hover{
+    color: #000;
+}
